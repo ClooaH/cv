@@ -1,4 +1,15 @@
 main{
-	width: 95%;
 	margin: 1em;	
+}
+.border , .border2 , .border3 , .border4 , .border5 {
+	border: outset #FF00FF 5px;
+	font-size: 1.5em;
+}
+p {
+	width: 35%;
+	text-align: center;
+}
+ul {
+	border: ridge blue;
+	width: 19%;	
 }
