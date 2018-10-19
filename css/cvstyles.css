@@ -1,15 +1,42 @@
 main{
-	margin: 1em;	
+	margin: 2em;
+	background-color: white;
 }
-.border , .border2 , .border3 , .border4 , .border5 {
-	border: outset #FF00FF 5px;
-	font-size: 1.5em;
+h2 {
+	font-family: 'Mali';
+	border: outset #FF00FF 5.5px;
+	font-size: 2em;
+	width: 23%;
+	margin: 0px;
+	text-align: center;
+	background-color: lightgrey;
 }
 p {
-	width: 35%;
+	width: 51%;
 	text-align: center;
+	font-size: 1.5em;
+	border: inset lightblue 3.5px;
 }
 ul {
 	border: ridge blue;
-	width: 19%;	
+	width: 43%;
+	font-size: 1.3em;	
+}
+aside {
+	width: 40%;
+	float: left;
+}
+section {
+	float: bottom;
+	width: 48%;
+	margin-left: 43%
+}
+.finfin {
+	float: right;
+	margin-right: 2%;
+	border-radius: 9%;
+	margin-top: 5%;
+}
+.section2 {
+
 }
