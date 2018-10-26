@@ -2,41 +2,58 @@ main{
 	margin: 2em;
 	background-color: white;
 }
+body{
+	background-image: url(../bild/background.jpg);
+}
+
 h2 {
 	font-family: 'Mali';
 	border: outset #FF00FF 5.5px;
 	font-size: 2em;
-	width: 23%;
-	margin: 0px;
+	width: 55%;
+	margin: 3%;
 	text-align: center;
 	background-color: lightgrey;
 }
+
 p {
 	width: 51%;
 	text-align: center;
 	font-size: 1.5em;
-	border: inset lightblue 3.5px;
+	margin: 2px;
+	border: dashed blue 3.5px;
+	background-color: lightgrey;
 }
+
 ul {
-	border: ridge blue;
-	width: 43%;
-	font-size: 1.3em;	
+	border: dashed blue 3.5px;
+	width: 46%;
+	margin-left: 5px;
+	font-size: 1.3em;
+	background-color: lightgrey;	
 }
-aside {
+
+.ett {
 	width: 40%;
+	float:left;
+}
+
+.tva {
+	width: 35%;
+	margin-left: 75px;
+	float:left;
+}
+
+.tre {
+	width: 20%;
 	float: left;
+	margin-bottom: 50px;
 }
-section {
-	float: bottom;
-	width: 48%;
-	margin-left: 43%
-}
+
 .finfin {
 	float: right;
-	margin-right: 2%;
 	border-radius: 9%;
-	margin-top: 5%;
-}
-.section2 {
-
+	margin-top: 63%;
+	margin-right: 4.5%;
+	width: 250px;
 }
