@@ -1,0 +1,23 @@
+html {
+	background-color: black;
+}
+main {
+	width: 75%;
+	margin: 0 auto;
+	background-image: url("../bild/mumsig.jpg");
+}
+h1 {
+	font-size: 9em;
+	border: ridge fuchsia 1.5em;
+	text-align: center;
+}
+h2 {
+	font-size: 3em;
+	text-align: center;
+}
+p {
+	text-align: center;
+	color: fuchsia;
+	font-size: 3em;
+	margin-bottom: 0px;
+}
